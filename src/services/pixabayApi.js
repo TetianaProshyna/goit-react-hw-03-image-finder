@@ -8,6 +8,4 @@ const fetchImg = ({ searchQuery = "", currentPage = 1, pageSize = 12 }) => {
     .then((response) => response.data.hits);
 };
 
-const PixabayApi = { fetchImg };
-
-export default PixabayApi;
+export default { fetchImg };
